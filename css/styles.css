@@ -1,1 +1,37 @@
-
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  list-style-type: none;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #2e2f42;
+}
+nav li {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+nav {
+  display: flex;
+  align-items: center;
+  padding: 25.5px 156px;
+}
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+.web {
+  color: #4d5ae5;
+}
+.address {
+  margin-left: auto;
+  color: #434455;
+  font-weight: 400;
+}

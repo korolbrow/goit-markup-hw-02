@@ -4,25 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="<https://fonts.gstatic.com>" />
   </head>
-  <body>
+  <body clss="body-art">
     <header>
       <!-- Logo+Nav+Contacts-->
       <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
+        <a href="./index.html"><span class="web">Web</span>Studio</a>
+        <ul class="nav-links">
           <li><a href="">Studio</a></li>
           <li><a href="">Portfolio</a></li>
           <li><a href="">Contacts</a></li>
         </ul>
+
+        <!-- Address -->
+        <address class="address">
+          <ul class="nav-links">
+            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          </ul>
+        </address>
       </nav>
-      <!-- Address -->
-      <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-        </ul>
-      </address>
     </header>
 
     <!-- Section HERO -->
@@ -104,24 +111,40 @@
       <section>
         <ul>
           <li>
-            <img src="./images/portfolio/bankapp.jpg" alt="Banking App" />
+            <img
+              src="./images/portfolio/bankapp.jpg"
+              alt="Banking App"
+              width="360px"
+            />
             <h3>Banking App</h3>
             <p>App</p>
           </li>
 
           <li>
-            <img src="./images/portfolio/qr.jpg" alt="Cashless Payment" />
+            <img
+              src="./images/portfolio/qr.jpg"
+              alt="Cashless Payment"
+              width="360px"
+            />
             <h3>Cashless Payment</h3>
             <p>Marketing</p>
           </li>
           <li>
-            <img src="./images/portfolio/normalcy.jpg" alt="Meditation App" />
+            <img
+              src="./images/portfolio/normalcy.jpg"
+              alt="Meditation App"
+              width="360px"
+            />
             <h3>Meditation App</h3>
             <p>App</p>
           </li>
 
           <li>
-            <img src="./images/portfolio/auto.jpg" alt="Taxi Service" />
+            <img
+              src="./images/portfolio/auto.jpg"
+              alt="Taxi Service"
+              width="360px"
+            />
             <h3>Taxi Service</h3>
             <p>Marketing</p>
           </li>
@@ -130,13 +153,18 @@
             <img
               src="./images/portfolio/picture.jpg"
               alt="Screen Illustrations"
+              width="360px"
             />
             <h3>Screen Illustrations</h3>
             <p>Design</p>
           </li>
 
           <li>
-            <img src="./images/portfolio/girl.jpg" alt="Online Courses" />
+            <img
+              src="./images/portfolio/girl.jpg"
+              alt="Online Courses"
+              width="360px"
+            />
             <h3>Online Courses</h3>
             <p>Marketing</p>
           </li>
