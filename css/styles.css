@@ -35,3 +35,23 @@ nav {
   color: #434455;
   font-weight: 400;
 }
+/* Hero */
+.hero {
+  background-color: #2e2f42;
+  height: 600px;
+  line-height: 60px;
+  letter-spacing: 1.12px;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  padding: 188px 472px 292px 472px;
+  width: 496px;
+}
+.button {
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+}
