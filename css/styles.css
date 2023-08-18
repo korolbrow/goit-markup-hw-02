@@ -27,7 +27,7 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1 17;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -88,9 +88,11 @@ body {
   background-color: #404bbf;
 }
 /* SECTION- 2 - */
-.description {
-  background-color: #fff;
+
+.section-three-team {
+  background-color: #f4f4fd;
 }
+
 .name-description {
   color: #2e2f42;
   font-size: 20px;
