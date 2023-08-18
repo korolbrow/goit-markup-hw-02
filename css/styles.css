@@ -100,6 +100,9 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+.our-team {
+  background-color: #ffffff;
+}
 .text-description {
   color: #434455;
   font-size: 16px;
