@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
     <link
+      href="
+    https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
+    "
       rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
 
@@ -21,109 +23,133 @@
     <header>
       <!-- Logo+Nav+Contacts-->
       <nav>
-        <a href="./index.html"><span class="web">Web</span>Studio</a>
-        <ul class="navbar">
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+        <a class="web text" href="./index.html"
+          >Web<span class="nav-link">Studio</span></a
+        >
+        <ul class="type">
+          <li>
+            <a class="nav text" href="./index.html">Studio</a>
+          </li>
+          <li><a class="nav text" href="">Portfolio</a></li>
+          <li><a class="nav text" href="">Contacts</a></li>
         </ul>
-
-        <!-- Address -->
-        <address>
-          <ul class="navbar">
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-          </ul>
-        </address>
       </nav>
+
+      <!-- Address -->
+      <address class="nav-contact">
+        <ul class="navbar type">
+          <li class="nav-mail">
+            <a class="contacts link text" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="contacts link text" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
     </header>
 
     <!-- Section HERO -->
     <main>
       <section class="hero">
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <h1 class="hero-text">Effective Solutions for Your Business</h1>
+        <button class="button" type="button">Order Service</button>
       </section>
 
-      <!-- Step 2 -->
+      <!-- SECTION-2- -->
       <section>
         <h2>Content</h2>
-        <ul>
+        <ul class="description type">
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="name-description">Strategy</h3>
+            <p class="text-description">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="name-description">Punctuality</h3>
+            <p class="text-description">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="name-description">Diligence</h3>
+            <p class="text-description">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="name-description">Technologies</h3>
+            <p class="text-description">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
         </ul>
       </section>
-      <!-- Step 3 -->
+      <!-- SECTION- 3 - -->
       <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
-            <img src="./images/team/mark.jpg" alt="Mark Guerrero" width="264" />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
-          </li>
-          <li>
-            <img src="./images/team/tom.jpg" alt="Tom Ford" width="264" />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
-          </li>
-          <li>
+        <h2 class="developers">Our Team</h2>
+        <ul class="section-three type">
+          <li class="our-team">
             <img
+              class="team"
+              src="./images/team/mark.jpg"
+              alt="Mark Guerrero"
+              width="360"
+            />
+            <h3 class="name-description">Mark Guerrero</h3>
+            <p class="text-description">Product Designer</p>
+          </li>
+          <li class="our-team">
+            <img
+              class="team"
+              src="./images/team/tom.jpg"
+              alt="Tom Ford"
+              width="360"
+            />
+            <h3 class="name-description">Tom Ford</h3>
+            <p class="text-description">Frontend Developer</p>
+          </li>
+          <li class="our-team">
+            <img
+              class="team"
               src="./images/team/camila.jpg"
               alt="Camila Garcia"
-              width="264"
+              width="360"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="name-description">Camila Garcia</h3>
+            <p class="text-description">Marketing</p>
           </li>
-          <li>
+          <li class="our-team">
             <img
+              class="team"
               src="./images/team/daniel.jpg"
               alt="Daniel Wilson"
-              width="264"
+              width="360"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="name-description">Daniel Wilson</h3>
+            <p class="text-description">UI Designer</p>
           </li>
         </ul>
       </section>
-      <!-- Portfolio -->
+      <!-- PORTFOLIO -->
       <section>
-        <ul>
+        <ul class="portfolio type">
           <li>
             <img
               src="./images/portfolio/bankapp.jpg"
               alt="Banking App"
               width="360"
             />
-            <h3>Banking App</h3>
-            <p>App</p>
+            <h3 class="name-description">Banking App</h3>
+            <p class="text-description">App</p>
           </li>
 
           <li>
@@ -132,8 +158,8 @@
               alt="Cashless Payment"
               width="360"
             />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <h3 class="name-description">Cashless Payment</h3>
+            <p class="text-description">Marketing</p>
           </li>
           <li>
             <img
@@ -141,8 +167,8 @@
               alt="Meditation App"
               width="360"
             />
-            <h3>Meditation App</h3>
-            <p>App</p>
+            <h3 class="name-description">Meditation App</h3>
+            <p class="text-description">App</p>
           </li>
 
           <li>
@@ -151,8 +177,8 @@
               alt="Taxi Service"
               width="360"
             />
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <h3 class="name-description">Taxi Service</h3>
+            <p class="text-description">Marketing</p>
           </li>
 
           <li>
@@ -161,8 +187,8 @@
               alt="Screen Illustrations"
               width="360"
             />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <h3 class="name-description">Screen Illustrations</h3>
+            <p class="text-description">Design</p>
           </li>
 
           <li>
@@ -172,14 +198,16 @@
               width="360"
             />
             <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <p class="text-description">Marketing</p>
           </li>
         </ul>
       </section>
     </main>
-    <!-- Step 4 -->
+    <!-- SECTION- 4 - -->
     <footer class="footerbar">
-      <a href="./index.html"><span class="web">Web</span>Studio</a>
+      <a class="footer-logo text" href="./index.html"
+        ><span class="web">Web</span>Studio</a
+      >
       <p class="text-footer">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
